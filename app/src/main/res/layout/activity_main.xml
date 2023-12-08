@@ -55,7 +55,10 @@
         android:text="@string/add"
         android:textSize="18sp"
         android:layout_marginTop="16dp"
-        android:onClick="onButtonClick"/>
+        android:onClick="onButtonClick"
+        android:background="#0c100c"
+        android:textColor="#FFFFFF"/>
+        
 
     <Button
         android:id="@+id/btnSubtract"
@@ -65,7 +68,9 @@
         android:text="@string/subtract"
         android:textSize="18sp"
         android:layout_marginTop="16dp"
-        android:onClick="onButtonClick"/>
+        android:onClick="onButtonClick"
+        android:background="#0c100c"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/btnMultiply"
@@ -75,7 +80,9 @@
         android:text="@string/multiply"
         android:textSize="18sp"
         android:layout_marginTop="16dp"
-        android:onClick="onButtonClick"/>
+        android:onClick="onButtonClick"
+        android:background="#0c100c"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/btnDivide"
@@ -85,5 +92,7 @@
         android:text="@string/divide"
         android:textSize="18sp"
         android:layout_marginTop="16dp"
-        android:onClick="onButtonClick"/>
+        android:onClick="onButtonClick"
+        android:background="#0c100c"
+        android:textColor="#FFFFFF"/>
 </LinearLayout>
